@@ -19,6 +19,7 @@ body {
     font-family: 'Hanken Grotesk', sans-serif;
     font-size: 18px;
     color: var(--Light-lavender);
+    margin:0
 }
 
 .container {
@@ -170,4 +171,12 @@ button{
 button:hover {
     background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     cursor:pointer;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
 }
